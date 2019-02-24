@@ -45,8 +45,8 @@ hi VisualNOS        ctermbg=NONE ctermfg=NONE  cterm=UNDERLINE guibg=NONE    gui
 hi IncSearch        ctermbg=220  ctermfg=239   cterm=NONE      guibg=#edc202 guifg=#3c4c55   gui=NONE
 hi Search           ctermbg=185  ctermfg=239   cterm=NONE      guibg=#ddd668 guifg=#3c4c55   gui=NONE
 
-hi StatusLine       ctermbg=243  ctermfg=229   cterm=NONE      guibg=#616c72 guifg=#ffebc3   gui=NONE
-hi StatusLineNC     ctermbg=243  ctermfg=229   cterm=NONE      guibg=#616c72 guifg=#ffebc3   gui=NONE
+hi StatusLine       ctermbg=243  ctermfg=229   cterm=NONE      guibg=#3c4c55 guifg=#ffebc3   gui=NONE
+hi StatusLineNC     ctermbg=243  ctermfg=229   cterm=NONE      guibg=#3c4c55 guifg=#ffebc3   gui=NONE
 hi VertSplit        ctermbg=NONE ctermfg=243   cterm=NONE      guibg=NONE    guifg=#616c72   gui=NONE
 hi WildMenu         ctermbg=229  ctermfg=243   cterm=NONE      guibg=#ffebc3 guifg=#616c72   gui=NONE
 hi ModeMsg          ctermbg=NONE ctermfg=110   cterm=NONE      guibg=NONE    guifg=#7fc1ca   gui=NONE
