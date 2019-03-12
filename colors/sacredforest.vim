@@ -33,7 +33,7 @@ hi MatchParen       ctermbg=NONE ctermfg=110   cterm=NONE      guibg=NONE    gui
 hi Conceal          ctermbg=NONE ctermfg=243   cterm=NONE      guibg=NONE    guifg=#616c72   gui=NONE
 hi SpecialKey       ctermbg=NONE ctermfg=243   cterm=NONE      guibg=NONE    guifg=#616c72   gui=NONE
 hi ColorColumn      ctermbg=243  ctermfg=NONE  cterm=NONE      guibg=#616c72 guifg=NONE      gui=NONE
-hi SignColumn       ctermbg=243  ctermfg=NONE  cterm=NONE      guibg=#616c72 guifg=NONE      gui=NONE
+hi SignColumn       ctermbg=NONE ctermfg=243   cterm=NONE      guibg=NONE    guifg=#616c72   gui=NONE
 hi Folded           ctermbg=NONE ctermfg=110   cterm=NONE      guibg=NONE    guifg=#7fc1ca   gui=NONE
 hi FoldColumn       ctermbg=NONE ctermfg=110   cterm=NONE      guibg=NONE    guifg=#7fc1ca   gui=NONE
 
@@ -71,9 +71,9 @@ hi WarningMsg       ctermbg=NONE ctermfg=167   cterm=NONE      guibg=NONE    gui
 hi MoreMsg          ctermbg=NONE ctermfg=110   cterm=NONE      guibg=NONE    guifg=#7fc1ca   gui=NONE
 hi Question         ctermbg=NONE ctermfg=110   cterm=NONE      guibg=NONE    guifg=#7fc1ca   gui=NONE
 
-hi TabLine          ctermbg=243  ctermfg=229   cterm=NONE      guibg=#616c72 guifg=#ffebc3   gui=NONE
-hi TabLineSel       ctermbg=243  ctermfg=229   cterm=REVERSE   guibg=#616c72 guifg=#ffebc3   gui=REVERSE
-hi TabLineFill      ctermbg=243  ctermfg=229   cterm=NONE      guibg=#616c72 guifg=#ffebc3   gui=NONE
+hi TabLine          ctermbg=243  ctermfg=229   cterm=NONE      guibg=#3c4c55 guifg=#ffebc3   gui=NONE
+hi TabLineSel       ctermbg=243  ctermfg=229   cterm=REVERSE   guibg=#3c4c55 guifg=#ffebc3   gui=REVERSE
+hi TabLineFill      ctermbg=243  ctermfg=229   cterm=NONE      guibg=#3c4c55 guifg=#ffebc3   gui=NONE
 
 hi Error            ctermbg=NONE ctermfg=167   cterm=REVERSE   guibg=NONE    guifg=#db6c6c   gui=REVERSE
 hi Ignore           ctermbg=NONE ctermfg=NONE  cterm=NONE      guibg=NONE    guifg=NONE      gui=NONE
