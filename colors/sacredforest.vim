@@ -25,11 +25,13 @@ hi Identifier       ctermbg=NONE ctermfg=150   cterm=NONE      guibg=NONE    gui
 hi Constant         ctermbg=NONE ctermfg=150   cterm=NONE      guibg=NONE    guifg=#a8ce93   gui=NONE
 hi Boolean          ctermbg=NONE ctermfg=150   cterm=NONE      guibg=NONE    guifg=#a8ce93   gui=NONE
 hi String           ctermbg=NONE ctermfg=150   cterm=NONE      guibg=NONE    guifg=#a8ce93   gui=NONE
-hi Title            ctermbg=NONE ctermfg=188   cterm=NONE      guibg=NONE    guifg=#c5d4dd   gui=NONE
+hi Title            ctermbg=NONE ctermfg=188   cterm=NONE      guibg=NONE    guifg=#a8ce93   gui=NONE
 
 hi LineNr           ctermbg=NONE ctermfg=243   cterm=NONE      guibg=NONE    guifg=#616c72   gui=NONE
 hi CursorLineNr     ctermbg=NONE ctermfg=185   cterm=NONE      guibg=NONE    guifg=#ddd668   gui=NONE
 hi MatchParen       ctermbg=NONE ctermfg=110   cterm=NONE      guibg=NONE    guifg=#7fc1ca   gui=NONE
+hi HyperlinkText    ctermbg=NONE ctermfg=110   cterm=NONE      guibg=NONE    guifg=#7fc1ca   gui=UNDERLINE
+hi HyperlinkURL     ctermbg=NONE ctermfg=110   cterm=NONE      guibg=NONE    guifg=#616c72   gui=UNDERLINE
 hi Conceal          ctermbg=NONE ctermfg=243   cterm=NONE      guibg=NONE    guifg=#616c72   gui=NONE
 hi SpecialKey       ctermbg=NONE ctermfg=243   cterm=NONE      guibg=NONE    guifg=#616c72   gui=NONE
 hi ColorColumn      ctermbg=243  ctermfg=NONE  cterm=NONE      guibg=#616c72 guifg=NONE      gui=NONE
@@ -114,8 +116,12 @@ hi link Structure          Type
 hi link Tag                Special
 hi link Typedef            Type
 
+hi link mkdHeading         Title
+hi link mkdLink            HyperlinkText
+hi link mkdURL             HyperlinkURL
+hi link mkdListitem        Special
 hi link htmlEndTag         htmlTagName
-hi link htmlLink           Function
+hi link htmlLink           HyperlinkText
 hi link htmlSpecialTagName htmlTagName
 hi link htmlTag            htmlTagName
 hi link xmlTag             Statement
