@@ -44,8 +44,12 @@ hi Underlined       ctermbg=NONE ctermfg=NONE  cterm=UNDERLINE guibg=NONE    gui
 
 hi Visual           ctermbg=110  ctermfg=239   cterm=NONE      guibg=#7fc1ca guifg=#3c4c55   gui=NONE
 hi VisualNOS        ctermbg=NONE ctermfg=NONE  cterm=UNDERLINE guibg=NONE    guifg=NONE      gui=bold
-hi IncSearch        ctermbg=220  ctermfg=239   cterm=NONE      guibg=#ddd668 guifg=#3c4c55   gui=NONE
-hi Search           ctermbg=220  ctermfg=239   cterm=bold      guibg=#ddd668 guifg=#3c4c55   gui=NONE
+hi clear IncSearch
+hi IncSearch        ctermfg=220 cterm=bold guifg=#ddd668 gui=bold
+hi clear Search
+hi Search           ctermfg=220 cterm=bold gui=NONE
+hi link Searchlight Incsearch
+
 
 hi StatusLine       ctermbg=243  ctermfg=229   cterm=bold      guibg=#3c4c55 guifg=#616c72   gui=NONE
 hi StatusLineNC     ctermbg=243  ctermfg=229   cterm=NONE      guibg=#3c4c55 guifg=#616c72   gui=NONE
@@ -74,9 +78,9 @@ hi WarningMsg       ctermbg=NONE ctermfg=167   cterm=NONE      guibg=NONE    gui
 hi MoreMsg          ctermbg=NONE ctermfg=110   cterm=NONE      guibg=NONE    guifg=#7fc1ca   gui=NONE
 hi Question         ctermbg=NONE ctermfg=110   cterm=NONE      guibg=NONE    guifg=#7fc1ca   gui=NONE
 
-hi TabLine          ctermbg=243  ctermfg=229   cterm=UNDERLINE guibg=#3c4c55 guifg=#ddd668   gui=UNDERLINE
-hi TabLineSel       ctermbg=243  ctermfg=229   cterm=bold      guibg=#ddd668 guifg=#3c4c55   gui=bold
-hi TabLineFill      ctermbg=243  ctermfg=229   cterm=UNDERLINE guibg=#3c4c55 guifg=#ddd668   gui=UNDERLINE
+hi TabLine          ctermbg=243  ctermfg=229   cterm=NONE      guibg=#3c4c55 guifg=#ddd668   gui=NONE
+hi TabLineSel       ctermbg=243  ctermfg=229   cterm=BOLD      guibg=#3c4c55 guifg=#ddd668   gui=NONE,BOLD
+hi TabLineFill      ctermbg=243  ctermfg=229   cterm=NONE      guibg=#3c4c55 guifg=#ddd668   gui=NONE
 
 hi Error            ctermbg=NONE ctermfg=167   cterm=REVERSE   guibg=NONE    guifg=#db6c6c   gui=REVERSE
 hi Ignore           ctermbg=NONE ctermfg=NONE  cterm=NONE      guibg=NONE    guifg=NONE      gui=NONE
