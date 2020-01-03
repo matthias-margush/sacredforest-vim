@@ -73,7 +73,7 @@ hi SpellCap         ctermbg=NONE ctermfg=NONE  cterm=UNDERCURL guibg=NONE    gui
 hi SpellLocal       ctermbg=NONE ctermfg=NONE  cterm=UNDERCURL guibg=NONE    guifg=NONE      gui=UNDERCURL
 hi SpellRare        ctermbg=NONE ctermfg=NONE  cterm=UNDERCURL guibg=NONE    guifg=NONE      gui=UNDERCURL
 
-hi ErrorMsg         ctermbg=167  ctermfg=243   cterm=NONE      guibg=#db6c6c guifg=#616c72   gui=NONE
+hi ErrorMsg         ctermbg=167  ctermfg=243   cterm=NONE      guibg=NONE    guifg=#db6c6c   gui=NONE
 hi WarningMsg       ctermbg=NONE ctermfg=167   cterm=NONE      guibg=NONE    guifg=#db6c6c   gui=NONE
 hi MoreMsg          ctermbg=NONE ctermfg=110   cterm=NONE      guibg=NONE    guifg=#7fc1ca   gui=NONE
 hi Question         ctermbg=NONE ctermfg=110   cterm=NONE      guibg=NONE    guifg=#7fc1ca   gui=NONE
