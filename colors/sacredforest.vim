@@ -45,9 +45,9 @@ hi Underlined       ctermbg=NONE ctermfg=NONE  cterm=UNDERLINE guibg=NONE    gui
 hi Visual           ctermbg=110  ctermfg=239   cterm=NONE      guibg=#7fc1ca guifg=#3c4c55   gui=NONE
 hi VisualNOS        ctermbg=NONE ctermfg=NONE  cterm=UNDERLINE guibg=NONE    guifg=NONE      gui=bold
 hi clear IncSearch
-hi IncSearch        ctermfg=220 cterm=bold guifg=#ddd668 gui=bold
+hi IncSearch        ctermfg=220 cterm=bold,underline guifg=#ddd668 gui=bold,underline
 hi clear Search
-hi Search           ctermfg=220 cterm=bold gui=NONE
+hi Search           ctermfg=220 cterm=bold,underline "gui=bold,underline
 hi link Searchlight Incsearch
 
 
