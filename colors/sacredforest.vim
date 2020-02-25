@@ -52,7 +52,7 @@ hi link Searchlight Incsearch
 
 
 hi StatusLine       ctermbg=243  ctermfg=229   cterm=bold      guibg=#3c4c55 guifg=#616c72   gui=NONE
-hi StatusLineNC     ctermbg=243  ctermfg=229   cterm=underline      guibg=#3c4c55 guifg=#a8ce93   gui=bold,underline
+hi StatusLineNC     ctermbg=243  ctermfg=229   cterm=bold      guibg=#3c4c55 guifg=#616c71   gui=bold
 
 hi VertSplit        ctermbg=NONE ctermfg=243   cterm=NONE      guibg=NONE    guifg=#616c72   gui=NONE
 hi WildMenu         ctermbg=229  ctermfg=243   cterm=NONE      guibg=#ffebc3 guifg=#616c72   gui=NONE
