@@ -160,3 +160,9 @@ hi GitGutterAdd          ctermbg=NONE ctermfg=150 cterm=NONE guibg=NONE    guifg
 hi GitGutterChange       ctermbg=NONE ctermfg=167 cterm=NONE guibg=NONE    guifg=#edc202 gui=NONE
 hi GitGutterDelete       ctermbg=167  ctermfg=243 cterm=NONE guibg=NONE    guifg=#db6c6c gui=NONE
 hi GitGutterChangeDelete ctermbg=167  ctermfg=243 cterm=NONE guibg=NONE    guifg=#edc202 gui=NONE
+
+hi link CocErrorSign		ErrorMsg
+hi link CocWarningSign	WarningMsg
+hi link CocInfoSign     MoreMsg
+hi link CocHintSign	    MoreMsg
+
