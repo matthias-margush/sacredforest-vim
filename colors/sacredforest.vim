@@ -63,10 +63,10 @@ hi DiffDelete       ctermbg=167  ctermfg=239   cterm=NONE      guibg=#db6c6c gui
 hi DiffChange       ctermbg=239  ctermfg=214   cterm=UNDERLINE guibg=#3c4c55 guifg=#ffbf00   gui=UNDERLINE
 hi DiffText         ctermbg=214  ctermfg=239   cterm=NONE      guibg=#ffbf00 guifg=#3c4c55   gui=NONE
 
-hi Pmenu            ctermbg=243  ctermfg=229   cterm=NONE      guibg=#616c72 guifg=#ffebc3   gui=NONE
-hi PmenuSel         ctermbg=243  ctermfg=229   cterm=REVERSE   guibg=#616c72 guifg=#ffebc3   gui=REVERSE
-hi PmenuSbar        ctermbg=243  ctermfg=NONE  cterm=NONE      guibg=#616c72 guifg=NONE      gui=NONE
-hi PmenuThumb       ctermbg=229  ctermfg=NONE  cterm=NONE      guibg=#ffebc3 guifg=NONE      gui=NONE
+hi Pmenu            ctermbg=243  ctermfg=229   cterm=NONE      guibg=#ffebc3 guifg=#616c62   gui=NONE
+hi PmenuSel         ctermbg=243  ctermfg=229   cterm=REVERSE   guibg=#ffebc3 guifg=#616c62   gui=REVERSE
+hi PmenuSbar        ctermbg=243  ctermfg=NONE  cterm=NONE      guibg=#ffebc3 guifg=NONE      gui=NONE
+hi PmenuThumb       ctermbg=229  ctermfg=NONE  cterm=NONE      guibg=#616c72 guifg=NONE      gui=NONE
 
 hi SpellBad         ctermbg=NONE ctermfg=NONE  cterm=UNDERCURL guibg=NONE    guifg=NONE      gui=UNDERCURL
 hi SpellCap         ctermbg=NONE ctermfg=NONE  cterm=UNDERCURL guibg=NONE    guifg=NONE      gui=UNDERCURL
