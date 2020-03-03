@@ -166,3 +166,5 @@ hi link CocWarningSign	CocErrorSign
 hi link CocInfoSign     CocErrorSign
 hi link CocHintSign	    CocErrorSign
 
+hi link LspErrorText ErrorMsg
+hi link LspWarningText ErrorMsg
