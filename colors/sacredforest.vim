@@ -168,3 +168,21 @@ hi link CocHintSign	    CocErrorSign
 
 hi link LspErrorText ErrorMsg
 hi link LspWarningText ErrorMsg
+
+let g:terminal_color_0 ="#3c4c55"
+let g:terminal_color_8 ="#3c4c55"
+let g:terminal_color_1 ="#db6c6c"
+let g:terminal_color_9 ="#db6c6c"
+let g:terminal_color_2 ="#8eaf6b"
+let g:terminal_color_10="#8eaf6b"
+let g:terminal_color_3 ="#ddd668"
+let g:terminal_color_11="#ddd668"
+let g:terminal_color_4 ="#7fc1ca"
+let g:terminal_color_12="#7fc1ca"
+let g:terminal_color_5 ="#db6c6c"
+let g:terminal_color_13="#db6c6c"
+let g:terminal_color_6 ="#7fc1ca"
+let g:terminal_color_14="#7fc1ca"
+let g:terminal_color_7 ="#ffebe3"
+let g:terminal_color_15="#ffebe3"
+
